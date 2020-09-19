@@ -24,7 +24,7 @@ Used technologies for this project:
 * [PHP] - for the best web apps!
 * [PHP Storm] - Awesome php text editor by jetbrains.
 * [MySQL] - Oracles awesome database.
-* [Postman] - Back-end developers favorite Front-end :postbox: . 
+* [Postman] - Back-end developers favorite Front-end :mailbox_with_mail: . 
 * [Github] - duh.
 
 # Usage
