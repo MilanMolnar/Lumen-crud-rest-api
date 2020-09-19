@@ -1,24 +1,64 @@
-# Lumen PHP Framework
+# Lumen Simple CRUD REST API
+This API is just for practice
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+  - Full database capabilities
+  - Database migrations
+  - Create, Read, Read all, Update, Delete funcionalities
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+# Installation!
 
-## Official Documentation
+> Clone the repository and follow the steps.
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+Set up your .env file to your desired database!
+```sh
+cd master
+composer install
+php artisan migrate
+```
 
-## Contributing
+# Tech
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Used technologies for this project:
 
-## Security Vulnerabilities
+* [Laravel/Lumen] - The stunningly fast micro-framework by Laravel.
+* [PHP] - for the best web apps!
+* [PHP Storm] - Awesome php text editor by jetbrains.
+* [MySQL] - Oracles awesome database.
+* [Postman] - Back-end developers favorite Front-end :postbox: . 
+* [Github] - duh.
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+# Usage
+```sh
+php -S localhost:8000 -t public
+```
 
-## License
+### - Routes and capabilities
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+| Routes | funtionality |
+| ------ | ------ |
+| /authors | [GET] showAllAuthors |
+| /authors/{author_id} | [GET] showOneAuthor |
+| /authors | [POST] createOneAuthor |
+| /authors/{author_id} | [PUT] updateAuthor |
+| /authors/{author_id} | [DELETE] deleteAuthor|
+
+
+
+License
+----
+Free to use, free to modify, free to share.
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
+
+   [MySQL]: <https://www.mysql.com/>
+   [Github]: <https://github.com/g>
+   [node.js]: <http://nodejs.org>
+   [Bootstrap]: <https://getbootstrap.com/>
+   [jQuery]: <http://jquery.com>
+   [Laravel]: <https://laravel.com/>
+   [express]: <http://expressjs.com>
+   [Php]: <https://www.php.net/>
+   [PHP storm]: <https://www.jetbrains.com/phpstorm/>
+   [Laravel/lumen]: <https://lumen.laravel.com/>
+   [Postman]: <https://www.postman.com/>
