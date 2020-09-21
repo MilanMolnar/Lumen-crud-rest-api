@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/MilanMolnar/Lumen-crud-rest-api/workflows/PHP Build/badge.svg)](https://github.com/MilanMolnar/Lumen-crud-rest-api/actions)
+
 # Lumen Simple CRUD REST API
 This API is just for practice
 
