@@ -38,11 +38,11 @@ php -S localhost:8000 -t public
 
 | Routes | funtionality |
 | ------ | ------ |
-| /authors | [GET] showAllAuthors |
-| /authors/{author_id} | [GET] showOneAuthor |
-| /authors | [POST] createOneAuthor |
-| /authors/{author_id} | [PUT] updateAuthor |
-| /authors/{author_id} | [DELETE] deleteAuthor|
+| api/authors | [GET] showAllAuthors |
+| api/authors/{author_id} | [GET] showOneAuthor |
+| api/authors | [POST] createOneAuthor |
+| api/authors/{author_id} | [PUT] updateAuthor |
+| api/authors/{author_id} | [DELETE] deleteAuthor|
 
 
 
